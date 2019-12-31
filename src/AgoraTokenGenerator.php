@@ -91,10 +91,10 @@ class AgoraTokenGenerator
     /**
      * @param $role
      */
-    public function initPrivilege($role){
+    public function initPrivilege($role , $expireTimestamp = 0){
         $p = self::RolePrivileges[$role];
         foreach($p as $key => $value){
-            $this->setPrivilege($key, $value);
+            $this->setPrivilege($key, $expireTimestamp!=0 ? $expireTimestamp :$value);
         }
     }
 
