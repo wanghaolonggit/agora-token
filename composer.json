@@ -1,6 +1,6 @@
 {
-    "name": "haolong/agora-token-generator-php",
-    "description": "声网token生成器",
+    "name": "haolong/agora-token-php",
+    "description": "token",
  	"type": "library",
     "license": "MIT",
  	"authors": [
