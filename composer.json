@@ -1,0 +1,21 @@
+{
+    "name": "hongli/agora-token-generator",
+    "description": "声网token生成器",
+ 	"type": "library",
+    "license": "MIT",
+ 	"authors": [
+        {
+            "name": "haolong",
+            "email": "wanghaolong613@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+	"minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AgoraTokenGenerator\\": "src/"
+        }
+    }
+}
