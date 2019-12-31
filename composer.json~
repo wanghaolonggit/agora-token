@@ -1,5 +1,5 @@
 {
-    "name": "haolong/agora-token-generator",
+    "name": "hongli/agora-token-generator",
     "description": "声网token生成器",
  	"type": "library",
     "license": "MIT",
